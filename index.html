@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id = "calculator">
+        
+    <input type="text" id="screen" readonly>
+    
+    <div class="rows">
+        <div class="buttons" onclick="clearscreen()">C</div>
+        <div class="buttons" onclick="displayvalue('7')">7</div>
+        <div class="buttons" onclick="displayvalue('8')">8</div>
+        <div class="buttons" onclick="displayvalue('9')">9</div>
+    </div>
+    <div class="rows">
+        <div class="buttons" onclick="displayvalue('+')">+</div>
+        <div class="buttons" onclick="displayvalue('4')">4</div>
+        <div class="buttons" onclick="displayvalue('5')">5</div>
+        <div class="buttons" onclick="displayvalue('6')">6</div>
+    </div>
+        <div class="rows">
+        <div class="buttons" onclick="displayvalue('-')">-</div>
+        <div class="buttons" onclick="displayvalue('1')">1</div>
+        <div class="buttons" onclick="displayvalue('2')">2</div>
+        <div class="buttons" onclick="displayvalue('3')">3</div>
+        </div>
+    <div class="rows">
+        <div class="buttons" onclick="displayvalue('*')">*</div>
+        <div class="buttons" onclick="displayvalue('0')">0</div>
+        <div class="buttons" onclick="evaluate()">=</div>
+        <div class="buttons" onclick="displayvalue('/')">/</div>
+    </div>
+</div>
+    
+<script src="script.js"></script>
+</body>
+</html>

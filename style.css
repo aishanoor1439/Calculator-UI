@@ -1,0 +1,38 @@
+#calculator{
+    height: 540px;
+    width: 600px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 44px;
+    margin-left: 400px;
+    padding-top: 20px;
+}
+
+#screen{
+    height: 100px;
+    width: 550px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.buttons{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 35px;
+    padding-left: 43px;
+}
